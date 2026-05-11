@@ -10,11 +10,11 @@ public class Lottery {
 
         Random random = new Random();
 
-        ball.number = random.nextInt(100);
+        ball.setNumber(random.nextInt(100));
 
         ColorSupplier colorSupplier = new ColorSupplier();
 
-        ball.color = colorSupplier.getRandomColor();
+        ball.setColor(colorSupplier.getRandomColor());
 
         return ball.toString();
 
