@@ -4,9 +4,9 @@ import java.util.Random;
 
 public class ColorSupplier {
 
-    public String getRandomColor() {
+    Random rand = new Random();
 
-        Random rand = new Random();
+    public String getRandomColor() {
 
         ColorsEnum[] array = ColorsEnum.values();
 
